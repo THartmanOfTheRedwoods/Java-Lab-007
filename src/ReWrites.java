@@ -8,7 +8,9 @@ class ReWrites {
         double sum = 0.0;
         int count = 0;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
+        //!(l = s.nextLine()).toUpperCase().equals("Q")
+        for (int i = 0; i == 0; i = 0) {
+            if ((l = s.nextLine()).toUpperCase().equals("Q")) {break;}
             try {
                 sum += Integer.parseInt(l);
                 count++;
@@ -22,11 +24,13 @@ class ReWrites {
         System.out.println("Type positive integers to sum. To stop, type 0...");
         int x = -1;
         int sum = 0;
+        boolean isTrue = true;
 
-        while (true) {
+        while (isTrue) {
             try {
                 if(x == 0) {
-                    break;
+                    isTrue = false;
+                    continue;
                 }
                 x = Integer.parseInt(in.nextLine());
                 if (x <= 0) {
