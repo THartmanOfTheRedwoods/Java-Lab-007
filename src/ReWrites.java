@@ -1,3 +1,9 @@
+/**
+ * @author Trevor Hartman
+ * @author Adrienne van Summern
+ * @since version 1.0
+ */
+
 import java.util.Scanner;
 
 class ReWrites {
@@ -8,13 +14,15 @@ class ReWrites {
         double sum = 0.0;
         int count = 0;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
+        for(int i=0; i>-1; i++){
+            if((l = s.nextLine()).toUpperCase().equals("Q")){ // I previously wrote (l = s.nextLine().toUpperCase().equals("Q")), what does the extra set of () do?
+                break;
+            }
             try {
                 sum += Integer.parseInt(l);
                 count++;
             } catch (NumberFormatException nfe) {}
         }
-
         System.out.printf("Average is: %f%n", (sum/count));
     }
     public static void sumRewrite() {
@@ -23,11 +31,8 @@ class ReWrites {
         int x = -1;
         int sum = 0;
 
-        while (true) {
+        while (x != 0) {
             try {
-                if(x == 0) {
-                    break;
-                }
                 x = Integer.parseInt(in.nextLine());
                 if (x <= 0) {
                     continue;
@@ -42,6 +47,6 @@ class ReWrites {
 
     public static void main(String[] args) {
         avgRewrite();
-        sumRewrite();
+        //sumRewrite();
     }
 }
