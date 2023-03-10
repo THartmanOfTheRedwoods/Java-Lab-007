@@ -1,3 +1,13 @@
+/**
+ * @author Trevor Hartman
+ * @author Bryan Maus
+ * Date 03/10/2023
+ *
+ * @since version 1.0
+ *
+ * Rewrite the while loops in the sumRewrite method without the break condition and the boolean **true** in the parenthesis.
+ * Rewrite the while loops in the avgRewrite method as a for loop instead of a while loop.
+ */
 import java.util.Scanner;
 
 class ReWrites {
@@ -6,12 +16,11 @@ class ReWrites {
     public static void avgRewrite() {
         String l;
         double sum = 0.0;
-        int count = 0;
+        int count;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
+        for (count =0; !(l = s.nextLine()).toUpperCase().equals("Q");count++){
             try {
                 sum += Integer.parseInt(l);
-                count++;
             } catch (NumberFormatException nfe) {}
         }
 
@@ -23,11 +32,8 @@ class ReWrites {
         int x = -1;
         int sum = 0;
 
-        while (true) {
+        while (x!=0) {
             try {
-                if(x == 0) {
-                    break;
-                }
                 x = Integer.parseInt(in.nextLine());
                 if (x <= 0) {
                     continue;
