@@ -1,3 +1,10 @@
+/**
+ * @author Trevor Hartman
+ * @author MK Ripley
+ * @since Version 1.0
+ * 3/10/2023
+ */
+
 import java.util.Scanner;
 
 class ReWrites {
@@ -8,7 +15,7 @@ class ReWrites {
         double sum = 0.0;
         int count = 0;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
+        for( ; !(l = s.nextLine()).toUpperCase().equals("Q"); ) {
             try {
                 sum += Integer.parseInt(l);
                 count++;
@@ -23,11 +30,8 @@ class ReWrites {
         int x = -1;
         int sum = 0;
 
-        while (true) {
+        while (x != 0) {
             try {
-                if(x == 0) {
-                    break;
-                }
                 x = Integer.parseInt(in.nextLine());
                 if (x <= 0) {
                     continue;
