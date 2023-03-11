@@ -1,3 +1,11 @@
+/**
+ *
+ * @author Trevor Hartman
+ * @author Geng Cha
+ *
+ * @since Version 1.0
+ *
+ */
 import java.util.Scanner;
 
 class ReWrites {
@@ -8,13 +16,10 @@ class ReWrites {
         double sum = 0.0;
         int count = 0;
         System.out.println("Ths program will calculate the average of numbers entered. Begin entering and enter \"Q\" to quit.");
-        while(!(l = s.nextLine()).toUpperCase().equals("Q")) {
-            try {
-                sum += Integer.parseInt(l);
-                count++;
-            } catch (NumberFormatException nfe) {}
-        }
 
+        for (count = 0; !(l = s.nextLine()).toUpperCase().equals("Q"); count++) {
+            sum += Integer.parseInt(l);
+        }
         System.out.printf("Average is: %f%n", (sum/count));
     }
     public static void sumRewrite() {
@@ -23,18 +28,10 @@ class ReWrites {
         int x = -1;
         int sum = 0;
 
-        while (true) {
-            try {
-                if(x == 0) {
-                    break;
-                }
-                x = Integer.parseInt(in.nextLine());
-                if (x <= 0) {
-                    continue;
-                }
-                System.out.println("Adding " + x);
-                sum += x;
-            } catch (NumberFormatException nfe) {}
+        while (x != 0) {
+            x = Integer.parseInt(in.nextLine());
+            System.out.println("Adding " + x);
+            sum += x;
         }
 
         System.out.printf("Sum: %d%nGood Bye%n", sum);
@@ -42,6 +39,6 @@ class ReWrites {
 
     public static void main(String[] args) {
         avgRewrite();
-        sumRewrite();
+
     }
 }
