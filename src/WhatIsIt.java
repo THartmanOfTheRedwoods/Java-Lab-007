@@ -11,11 +11,13 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    // The 'mus' method calculates the sum of all elements in the array.
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
             fus += zoo[i];
         }
+
         return fus;
     }
     public static void main(String[] args) {
