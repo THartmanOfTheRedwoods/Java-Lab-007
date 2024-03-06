@@ -15,6 +15,7 @@ The purpose of this section is to practice reading code and recognizing the trav
     * For each variable, identify the role it plays.
 
 2. What is the output of the program in [WhatIsIt.java](src/WhatIsIt.java)?
+A: 30
     * Describe in a COMMENT, above the declaration of **mus**, using a few words, what **mus** does.
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
@@ -28,6 +29,7 @@ The purpose of this section is to practice writing methods to use arrays.
 2. Write a method called **indexOfMax** that takes an array of integers and returns the index of the largest element.
      * Can you write this method by using an enhanced for loop?
      * Why or why not?
+      A: No, because the enhanced for loop does not provide the index of the element.
 
 3. The [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) is "a simple, ancient algorithm for finding all prime numbers up to any given limit."
     * In the same class, write a method called **sieve** that takes an integer parameter, **n**, and returns a **boolean array** that indicates, for each number from 0 to n - 1, whether the number is prime.
