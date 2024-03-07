@@ -11,6 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    //mus is an integer method that takes integer array zoo and returns the integer fus
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
