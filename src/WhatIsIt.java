@@ -11,7 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
-    public static int mus(int[] zoo) {
+    public static int mus(int[] zoo) { // returns the sum of all the values of the array through fus.
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
             fus += zoo[i];
