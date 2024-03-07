@@ -15,9 +15,11 @@ The purpose of this section is to practice reading code and recognizing the trav
     * For each variable, identify the role it plays.
 
 2. What is the output of the program in [WhatIsIt.java](src/WhatIsIt.java)?
+![img.png](img.png)
     * Describe in a COMMENT, above the declaration of **mus**, using a few words, what **mus** does.
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
+   ![img_1.png](img_1.png)
 
 ## Part 2: Array Exploration
 
