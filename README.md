@@ -19,6 +19,8 @@ The purpose of this section is to practice reading code and recognizing the trav
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
 
+![mus.png](..%2F..%2FOneDrive%2FDocuments%2FLightshot%2Fmus.png)
+
 ## Part 2: Array Exploration
 
 **Objective:**
