@@ -11,6 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    //Calculates the sum of the elements in the integer array
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
@@ -24,3 +25,4 @@ public class WhatIsIt {
         System.out.println(mus(bob));
     }
 }
+//output is 30
