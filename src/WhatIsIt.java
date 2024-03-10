@@ -11,6 +11,9 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+
+    // the following method 'mus' takes an array of numbers and adds them together,
+    // resulting in an integer 'fus'.
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {

@@ -18,6 +18,8 @@ The purpose of this section is to practice reading code and recognizing the trav
     * Describe in a COMMENT, above the declaration of **mus**, using a few words, what **mus** does.
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
+* 
+![](C:\Users\rigel\IdeaProjects\Java-Lab-007\src\Untitled.png)
 
 ## Part 2: Array Exploration
 
@@ -27,7 +29,11 @@ The purpose of this section is to practice writing methods to use arrays.
 1. Create a new Java class file named **ArrayExploration.java**
 2. Write a method called **indexOfMax** that takes an array of integers and returns the index of the largest element.
      * Can you write this method by using an enhanced for loop?
+   ** You cannot have this method in an enhanced for loop because of the way it is designed.
+   It will look way different when written this way.
      * Why or why not?
+   ** I tried to do this and it throws error codes because of the way
+       numbers are indexed in java. I couldn't get it to work.
 
 3. The [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) is "a simple, ancient algorithm for finding all prime numbers up to any given limit."
     * In the same class, write a method called **sieve** that takes an integer parameter, **n**, and returns a **boolean array** that indicates, for each number from 0 to n - 1, whether the number is prime.
