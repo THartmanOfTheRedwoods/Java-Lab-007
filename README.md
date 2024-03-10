@@ -18,6 +18,8 @@ The purpose of this section is to practice reading code and recognizing the trav
     * Describe in a COMMENT, above the declaration of **mus**, using a few words, what **mus** does.
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
+      ![alt text](mus_StackDiagram.png)
+
 
 ## Part 2: Array Exploration
 
