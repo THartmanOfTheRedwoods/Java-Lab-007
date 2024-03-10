@@ -11,8 +11,9 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    // returns the sum of all elements
     public static int mus(int[] zoo) {
-        int fus = 0;
+        int fus = 0; // accumulates the sum of elements
         for (int i = 0; i < zoo.length; i++) {
             fus += zoo[i];
         }
