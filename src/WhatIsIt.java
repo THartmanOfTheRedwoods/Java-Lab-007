@@ -11,12 +11,13 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    // Sum if all elements
     public static int mus(int[] zoo) {
-        int fus = 0;
+        int fus = 0; //Represents accumulated sum
         for (int i = 0; i < zoo.length; i++) {
-            fus += zoo[i];
+            fus += zoo[i]; //Adds current element to sum
         }
-        return fus;
+        return fus; //Returns sum
     }
     public static void main(String[] args) {
         int[] bob = make(5);
