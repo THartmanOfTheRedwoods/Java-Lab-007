@@ -11,6 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    // mus returns a int value when a value goes through this specific program.
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
@@ -18,6 +19,7 @@ public class WhatIsIt {
         }
         return fus;
     }
+    //main is the main driver of this code
     public static void main(String[] args) {
         int[] bob = make(5);
         dub(bob);
