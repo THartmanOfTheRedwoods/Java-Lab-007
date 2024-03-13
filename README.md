@@ -35,7 +35,7 @@ The purpose of this section is to practice writing methods to use arrays.
 4. Next write a method named **areFactors** that takes an integer **n** and an **array of integers**, and **returns true** if the numbers in the array are all factors of **n**
      * HINT: this means that **n** would be divisible by all of them.
 
-5. Write a method named **arePrimeFactors** that takes an integer **n** and an **array of integers**, and that **returns true** if the numbers in the array are all **prime** and their **product is n**.
+5. Write a method named **arePrimeFactors** that takes an integer **n** and an **array of integers**, and that **returns true** if the numbers in the array are all **prime** and factors of **n**.
 
 6. Write a method called **letterHist** that takes a string as a parameter and returns a **histogram** of the letters in the string.
      * The zeroth element of the histogram should contain the number of **a’s** in the string (case-insensitive i.e. upper and lower)
