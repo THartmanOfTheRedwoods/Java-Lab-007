@@ -11,7 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
-    public static int mus(int[] zoo) {
+    public static int mus(int[] zoo) { //takes bob and holds a running total of fus plus the next number in the array
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
             fus += zoo[i];
