@@ -11,6 +11,7 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+    //mus method takes the integer array "zoo" as input and calculates and returns the sum of the elements of the array
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
