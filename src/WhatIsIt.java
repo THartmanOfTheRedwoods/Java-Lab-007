@@ -11,6 +11,10 @@ public class WhatIsIt {
             jub[i] *= 2;
         }
     }
+
+    /*
+    The method mus returns an integer that is the sum of all integers in the integer array, bob.
+     */
     public static int mus(int[] zoo) {
         int fus = 0;
         for (int i = 0; i < zoo.length; i++) {
