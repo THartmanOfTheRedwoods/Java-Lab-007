@@ -1,26 +1,17 @@
 public class WhatIsIt {
-    public static int[] make(int n) {
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = i + 1;
-        }
-        return a;
-    }
-    public static void dub(int[] jub) {
-        for (int i = 0; i < jub.length; i++) {
-            jub[i] *= 2;
-        }
-    }
+
+    //calculates the sum of all elements in the array.
     public static int mus(int[] zoo) {
-        int fus = 0;
+        int fus = 0; // Accumulates the sum of elements.
         for (int i = 0; i < zoo.length; i++) {
-            fus += zoo[i];
+            fus += zoo[i]; // Add the current element to the sum.
         }
-        return fus;
+        return fus; // Return the sum of elements.
     }
+
     public static void main(String[] args) {
         int[] bob = make(5);
         dub(bob);
-        System.out.println(mus(bob));
+        System.out.println(mus(bob)); // Output the sum of elements in bob.
     }
 }
