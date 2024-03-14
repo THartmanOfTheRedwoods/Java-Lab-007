@@ -15,6 +15,8 @@ The purpose of this section is to practice reading code and recognizing the trav
     * For each variable, identify the role it plays.
 
 2. What is the output of the program in [WhatIsIt.java](src/WhatIsIt.java)?
+**the output is 30**
+
     * Describe in a COMMENT, above the declaration of **mus**, using a few words, what **mus** does.
     * Place a breakpoint just before **mus** returns and run the program in **debug** mode.
     * Take a screenshot of the **Stack Diagram** at this point.
@@ -41,7 +43,9 @@ The purpose of this section is to practice writing methods to use arrays.
      * The zeroth element of the histogram should contain the number of **a’s** in the string (case-insensitive i.e. upper and lower)
      * The 25th element should contain the number of **z’s**.
      * Your solution should traverse the string only **once**.
+   //
    
+**you cannot write this method with an enhanced for loop because it doesnt provide access to the index of the element. And since indexOfMax needs to tkeep track of the index, an enhanced for loop wouldnt wo**rk.
 ## Submission
 Follow these steps for submission:
 1. Create a Feature01 branch of your code if you haven't already.
